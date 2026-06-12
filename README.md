@@ -1,176 +1,100 @@
-# 📘 Curso C# — Exercícios SENAI
+# Curso C# - Exercicios SENAI
 
-Repositório com todos os exercícios do curso de **C# (.NET 9)** realizados no SENAI Cotia.
-Organizado por módulos, com código limpo, comentado e com validações de entrada.
+Repositorio de estudos em C# com exercicios organizados por modulo e projetos de console separados. A estrutura foi pensada para ficar simples de navegar no GitHub e facil de apresentar.
 
----
+## Estrutura
 
-## 👤 Autor
-
-**Vinicius Chaves** — [@vchavesz](https://github.com/vchavesz)
-Estudante de Desenvolvimento de Software | SENAI Cotia & Colégio Adventista Granja Viana
-
----
-
-## 🗂️ Estrutura do Repositório
-
-```
-csharp-curso/
-│
-├── aritmetica/
-│   ├── ex01-area-retangulo.cs
-│   ├── ex02-area-quadrado.cs
-│   ├── ex03-operacoes-basicas.cs
-│   └── ex04-conversao-litros-ml.cs
-│
-├── operadores-comparacao/
-│   ├── ex05-comparar-numeros.cs
-│   ├── ex06-media-notas.cs
-│   ├── ex07-comparar-frutas.cs
-│   ├── ex08-soma-vs-c.cs
-│   └── ex09-variavel-condicional.cs
-│
-├── lacos-repeticao/
-│   ├── ex10-numeros-1-a-10.cs
-│   ├── ex11-soma-1-ate-n.cs
-│   ├── ex12-verificacao-senha.cs
-│   ├── ex13-contagem-regressiva.cs
-│   └── ex14-calculo-25-porcento.cs
-│
-├── arrays/
-│   ├── ex15-array-frutas.cs
-│   ├── ex16-media-decimais.cs
-│   ├── ex17-dobro-inteiros.cs
-│   └── ex18-busca-nome.cs
-│
-└── revisao/
-    └── calculadora-imc.cs
+```text
+C-sharpe/
++-- exercicios/
+|   +-- 01-aritmetica/
+|   +-- 02-operadores-comparacao/
+|   +-- 03-lacos-repeticao/
+|   +-- 04-arrays/
+|   +-- 05-revisao/
++-- projetos/
+    +-- caixa-eletronico/
+    +-- horta/
+    +-- jokempo/
+    +-- mundial-de-clubes/
+    +-- pontuacao-de-jogadores/
 ```
 
----
+## Exercicios
 
-## 📚 Módulos e Exercícios
+### 01 - Aritmetica
 
-### 🔢 Aritmética
+| Arquivo | Descricao |
+|---|---|
+| `ex01-area-retangulo.cs` | Calcula a area de um retangulo. |
+| `ex02-area-quadrado.cs` | Calcula a area de um quadrado. |
+| `ex03-operacoes-basicas.cs` | Mostra soma, subtracao, multiplicacao e divisao. |
+| `ex04-conversao-litros-ml.cs` | Converte litros para mililitros. |
 
-| # | Arquivo | Descrição |
-|---|---------|-----------|
-| 01 | `ex01-area-retangulo.cs` | Calcula a área de um retângulo com base e altura fixas |
-| 02 | `ex02-area-quadrado.cs` | Calcula a área de um quadrado a partir do seu lado |
-| 03 | `ex03-operacoes-basicas.cs` | Realiza soma, subtração, multiplicação e divisão |
-| 04 | `ex04-conversao-litros-ml.cs` | Converte litros em mililitros |
+### 02 - Operadores de comparacao
 
-### ⚖️ Operadores de Comparação
+| Arquivo | Descricao |
+|---|---|
+| `ex05-comparar-numeros.cs` | Compara dois numeros e informa o maior. |
+| `ex06-media-notas.cs` | Calcula media de notas e informa aprovacao. |
+| `ex07-comparar-frutas.cs` | Compara nomes de frutas ignorando maiusculas/minusculas. |
+| `ex08-soma-vs-c.cs` | Compara a soma de A + B com C. |
+| `ex09-variavel-condicional.cs` | Calcula C como soma ou produto dependendo de A e B. |
 
-| # | Arquivo | Descrição |
-|---|---------|-----------|
-| 05 | `ex05-comparar-numeros.cs` | Compara dois números inteiros e informa o maior |
-| 06 | `ex06-media-notas.cs` | Calcula média de 3 notas e informa aprovação/reprovação |
-| 07 | `ex07-comparar-frutas.cs` | Verifica se dois nomes de frutas são iguais |
-| 08 | `ex08-soma-vs-c.cs` | Compara A+B com o valor de C |
-| 09 | `ex09-variavel-condicional.cs` | Calcula C como soma ou produto dependendo de A e B |
+### 03 - Lacos de repeticao
 
-### 🔁 Laços de Repetição
+| Arquivo | Descricao |
+|---|---|
+| `ex10-numeros-1-a-10.cs` | Exibe numeros de 1 a 10. |
+| `ex11-soma-1-ate-n.cs` | Soma os numeros de 1 ate N. |
+| `ex12-verificacao-senha.cs` | Valida senha e conta tentativas. |
+| `ex13-contagem-regressiva.cs` | Faz contagem regressiva de 10 ate 1. |
+| `ex14-calculo-25-porcento.cs` | Calcula 25% de varios valores ate digitar 0. |
 
-| # | Arquivo | Descrição |
-|---|---------|-----------|
-| 10 | `ex10-numeros-1-a-10.cs` | Imprime os números de 1 a 10 com `for` |
-| 11 | `ex11-soma-1-ate-n.cs` | Soma todos os inteiros de 1 até N |
-| 12 | `ex12-verificacao-senha.cs` | Valida senha com `do-while`, contando tentativas |
-| 13 | `ex13-contagem-regressiva.cs` | Contagem regressiva de 10 até 1 |
-| 14 | `ex14-calculo-25-porcento.cs` | Calcula 25% de valores repetidamente até digitar 0 |
+### 04 - Arrays
 
-### 📦 Arrays
+| Arquivo | Descricao |
+|---|---|
+| `ex15-array-frutas.cs` | Percorre e exibe um array de frutas. |
+| `ex16-media-decimais.cs` | Le 4 numeros decimais e calcula a media. |
+| `ex17-dobro-inteiros.cs` | Le 6 inteiros e exibe o dobro de cada um. |
+| `ex18-busca-nome.cs` | Busca um nome dentro de um array. |
 
-| # | Arquivo | Descrição |
-|---|---------|-----------|
-| 15 | `ex15-array-frutas.cs` | Percorre e exibe um array de frutas com `for` |
-| 16 | `ex16-media-decimais.cs` | Lê 4 números decimais e calcula a média |
-| 17 | `ex17-dobro-inteiros.cs` | Lê 6 inteiros e exibe o dobro de cada um |
-| 18 | `ex18-busca-nome.cs` | Busca um nome em um array com `foreach` |
+### 05 - Revisao
 
-### 🔄 Revisão
+| Arquivo | Descricao |
+|---|---|
+| `calculadora-imc.cs` | Calcula IMC e exibe classificacao. |
 
-| Arquivo | Descrição |
-|---------|-----------|
-| `calculadora-imc.cs` | Calculadora completa de IMC com classificação via switch expression |
+## Projetos
 
----
+| Pasta | Descricao |
+|---|---|
+| `caixa-eletronico/` | Menu de saldo, deposito, saque e extrato. |
+| `horta/` | Cadastro simples de frutas, legumes e verduras em CSV. |
+| `jokempo/` | Jogo de pedra, papel e tesoura para dois jogadores. |
+| `mundial-de-clubes/` | Simulacao simples de semifinais e final. |
+| `pontuacao-de-jogadores/` | Tabela com vitorias, derrotas e saldo de jogadores. |
 
-## 🛠️ Correções e Melhorias Aplicadas
+## Como executar
 
-Durante a organização do repositório, vários exercícios foram melhorados:
-
-**Segurança nas entradas**
-- Todos os `int.Parse()` e `double.Parse()` foram substituídos por `TryParse()`, que não causa crash quando o usuário digita letras ou deixa o campo vazio.
-- Adicionado operador `??` nos `Console.ReadLine()` para lidar com valores nulos (nullable C#).
-
-**Qualidade do código**
-- Exercício 06: `int` trocado por `double` nas notas, pois médias como `7,5` eram perdidas na versão antiga.
-- Exercício 07 e 18: comparação de strings agora usa `StringComparison.OrdinalIgnoreCase`, então "vinicius" e "Vinicius" são considerados iguais.
-- Exercício 12: adicionado contador de tentativas.
-- Exercício 14: valor inválido não encerra o loop erroneamente.
-- Exercício 17: loop `for` desnecessário com variável `soma` não utilizada foi removido; `foreach` agora cobre todos os casos.
-- IMC: `.Replace('.', ',')` aplicado também no peso, não só na altura.
-
-**Organização**
-- Pastas com espaço no nome (ex: `laço de repetição`) renomeadas para `lacos-repeticao` — evita problemas no terminal e no Git.
-- Arquivos nomeados com padrão `exNN-descricao.cs` em vez de pasta por exercício.
-- Variáveis com nomes mais claros e strings de saída mais descritivas.
-
----
-
-## 🚀 Como Executar
-
-**Pré-requisitos:** [.NET 9 SDK](https://dotnet.microsoft.com/download)
-
-Para rodar qualquer exercício individualmente com o dotnet-script:
+Os arquivos em `exercicios/` sao scripts C# individuais. Para executar com `dotnet-script`:
 
 ```bash
-# Instale o dotnet-script (apenas uma vez)
 dotnet tool install -g dotnet-script
-
-# Execute um arquivo
-dotnet script arrays/ex18-busca-nome.cs
+dotnet script exercicios/04-arrays/ex18-busca-nome.cs
 ```
 
-Ou crie um projeto console simples e cole o código do exercício no `Program.cs`:
+Os projetos em `projetos/` possuem arquivo `.csproj` e podem ser executados com `dotnet run`:
 
 ```bash
-dotnet new console -n MeuExercicio
-cd MeuExercicio
-# cole o conteúdo do exercício em Program.cs
-dotnet run
+dotnet run --project projetos/caixa-eletronico/caixa-eletronico.csproj
 ```
 
----
+## Melhorias aplicadas
 
-## 🎯 Conceitos Abordados
-
-- Tipos primitivos: `int`, `double`, `string`, `bool`
-- Operadores aritméticos e de comparação
-- Estruturas condicionais: `if`, `else if`, `else`, `switch expression`
-- Laços de repetição: `for`, `while`, `do-while`, `foreach`
-- Arrays: declaração, inicialização, percurso e busca
-- Entrada/saída com `Console.ReadLine()` e `Console.WriteLine()`
-- Validação de entrada com `TryParse`
-- Interpolação de strings com `$""`
-- Formatação de números com `{valor:F2}`
-- Nullable reference types e operador `??`
-
----
-
-## 📈 Próximos Passos
-
-- [ ] Módulo: Métodos e Funções
-- [ ] Módulo: Orientação a Objetos (Classes, Herança, Interfaces)
-- [ ] Módulo: Coleções (`List<T>`, `Dictionary<K,V>`)
-- [ ] Módulo: Tratamento de Exceções (`try/catch`)
-- [ ] Módulo: LINQ
-- [ ] Projeto Final: Aplicação Console com CRUD
-
----
-
-## 📄 Licença
-
-Repositório de estudos — uso livre para fins educacionais.
+- Estrutura separada entre exercicios e projetos.
+- Pastas com nomes padronizados, sem espacos e sem acentos.
+- Remocao de arquivos gerados de build (`bin/` e `obj/`).
+- Validacoes com `TryParse` nos projetos que recebiam entrada do usuario.
+- README reescrito para ficar claro em apresentacao.
